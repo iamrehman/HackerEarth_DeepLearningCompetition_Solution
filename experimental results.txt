@@ -1,0 +1,68 @@
+First submission :
+alexnet 
+feature training freezed 
+only FC training 
+Adam
+lr = 0.0001
+
+Train test split (90% /10%)
+
+validation 67%
+public leaderboar 68%
+
+
+Second Submission:
+vgg19 with batch norm
+full training
+same optimizer 
+same splits
+
+validation: 78%
+public leaderboard: 74%
+
+
+-------------------------------
+divided lr by 10
+vgg19 with batch norm
+param non trainable (15 epochs)
+
+validation 72% (not submitted)
+
+------------------------------
+resnet 18 (submitted)
+
+lr = 0.0001
+
+val :81%
+leaderboard 74.5
+-------------------
+resnet 50 freezed no augmentations
+
+validation (60%)
+
+
+-------------
+resnet101 early stopping
+validation 81
+
+(15 epochs freezed features)
+10 epochs unfreezed features
+
+
+leaderboard 84%
+
+----
+adding external images
+resnet 50 early stopping 
+--------------------------
+
+resnet 101 
+
+Loss: 0.884 | Acc: 75.676% (28/37)
+
+
+
+
+
+
+
